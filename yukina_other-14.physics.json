@@ -1,4 +1,8 @@
 {
+"model":"yukina_other-14.moc",
+    "textures":[
+        "textures/texture_00.png"
+    ],
 	"type":"Live2D Physics",
 	"physics_hair":[
 		{
