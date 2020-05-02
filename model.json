@@ -4,12 +4,6 @@
 	"textures":[
 		"textures/texture_00.png"
 	],
-"HitAreas":[
-
-{
-"Id": "HitArea",
-"Name": "Body"}
-]
 
 	"expressions":[
 		{"name":"yukina_default.exp.json","file":"yukina_other-14/motions/yukina_default.exp.json"},
