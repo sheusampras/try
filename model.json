@@ -13,7 +13,7 @@
 		{"name":"yukina_worry.exp.json","file":"yukina_other-14/motions/yukina_worry.exp.json"}
 	],
 	"motions":{
-		"tap":[
+		"":[
 			{"file":"yukina_other-14/motions/sad01.mtn"},
 			{"file":"yukina_other-14/motions/serious01.mtn"},
 			{"file":"yukina_other-14/motions/shame01.mtn"},
@@ -40,7 +40,18 @@
 		"idle":[
 			{"file":"yukina_other-14/motions/idle01.mtn"},
 			{"file":"yukina_other-14/motions/idle02.mtn"}
-		]
+		],
+		"tap":[
+			{"file":"yukina_other-14/motions/serious01.mtn"},
+			{"file":"yukina_other-14/motions/cry01.mtn"},
+			{"file":"yukina_other-14/motions/surprised01.mtn"},
+			{"file":"yukina_other-14/motions/smile01.mtn"},
+			{"file":"yukina_other-14/motions/sing01.mtn"},
+			{"file":"yukina_other-14/motions/nf01.mtn"},
+			{"file":"yukina_other-14/motions/nf02.mtn"},
+			{"file":"yukina_other-14/motions/nf03.mtn"},
+			{"file":"yukina_other-14/motions/nf04.mtn"}
+			]
 	},
 	"physics":"yukina_other-14/motions/yukina_other-14.physics.json"
 }
