@@ -2,7 +2,7 @@
 	"version":"Sample 1.0.0",
 	"model":"yukina_other-14.moc",
 	"textures":[
-		"yukina_other-14/texture_00.png"
+		"textures/texture_00.png"
 	],
 	"expressions":[
 		{"name":"yukina_default.exp.json","file":"yukina_other-14/motions/yukina_default.exp.json"},
