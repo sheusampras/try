@@ -4,12 +4,13 @@
 	"textures":[
 		"textures/texture_00.png"
 	],
-	 "HitAreas": [
-                {
-                        "Id": "HitArea",
-                        "Name": "landlord"
-                }
-        ],
+"HitAreas":[
+
+{
+"Id": "HitArea",
+"Name": "Body"}
+]
+
 	"expressions":[
 		{"name":"yukina_default.exp.json","file":"yukina_other-14/motions/yukina_default.exp.json"},
 		{"name":"yukina_serious.exp.json","file":"yukina_other-14/motions/yukina_serious.exp.json"},
@@ -47,8 +48,9 @@
 			{"file":"yukina_other-14/motions/idle01.mtn"},
 			{"file":"yukina_other-14/motions/idle02.mtn"}
 		],
-		"tap":[
-			{"file":"yukina_other-14/motions/serious01.mtn"},
+"TapBody":[
+
+{"file":"yukina_other-14/motions/serious01.mtn"},
 			{"file":"yukina_other-14/motions/cry01.mtn"},
 			{"file":"yukina_other-14/motions/surprised01.mtn"},
 			{"file":"yukina_other-14/motions/smile01.mtn"},
