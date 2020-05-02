@@ -7,7 +7,7 @@
 	 "HitAreas": [
                 {
                         "Id": "HitArea",
-                        "Name": "Body"
+                        "Name": "landlord"
                 }
         ],
 	"expressions":[
