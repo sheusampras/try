@@ -13,7 +13,7 @@
 		{"name":"yukina_worry.exp.json","file":"yukina_other-14/motions/yukina_worry.exp.json"}
 	],
 	"motions":{
-		"":[
+		"tap":[
 			{"file":"yukina_other-14/motions/sad01.mtn"},
 			{"file":"yukina_other-14/motions/serious01.mtn"},
 			{"file":"yukina_other-14/motions/shame01.mtn"},
