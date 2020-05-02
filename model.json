@@ -4,25 +4,12 @@
 	"textures":[
 		"textures/texture_00.png"
 	],
-	 "layout":{
-        "center_x":0.0,
-        "center_y":-0.05,
-        "width":2.0
-    },
-    "hit_areas_custom":{
-        "head_x":[-0.35, 0.6],
-        "head_y":[0.19, -0.2],
-        "body_x":[-0.3, -0.25],
-        "body_y":[0.3, -0.9]
-    },
-	
-	
 	"expressions":[
 		{"name":"yukina_default.exp.json","file":"yukina_other-14/motions/yukina_default.exp.json"},
 		{"name":"yukina_special.exp.json","file":"yukina_other-14/motions/yukina_special.exp.json"}
 	],
 	"motions":{
-		  "flick_head":[
+		  "flick":[
 			  {"file":"yukina_other-14/motions/serious01.mtn"},
 			  {"file":"yukina_other-14/motions/smile01.mtn"},
 		          {"name":"yukina_strain.exp.json","file":"yukina_other-14/motions/yukina_strain.exp.json"},
@@ -31,7 +18,7 @@
 			  {"file":"yukina_other-14/motions/kime01.mtn"}
 			  {"name":"yukina_serious.exp.json","file":"yukina_other-14/motions/yukina_serious.exp.json"}
 			  ],
-		"tap_body":[
+		"tap":[
 			{"file":"yukina_other-14/motions/sad01.mtn"},
 			{"file":"yukina_other-14/motions/surprised01.mtn"},
 			{"name":"yukina_surprised.exp.json","file":"yukina_other-14/motions/yukina_surprised.exp.json"},
