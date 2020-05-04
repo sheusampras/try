@@ -18,7 +18,7 @@
         bottom: -20px;
     }
 </style>
-<script type="text/javascript" src="/live2d/device.min.js"></script>
+<script type="text/javascript" src="device.min.js"></script>
 <script type="text/javascript">
     const loadScript = function loadScript(c, b) {
         var a = document.createElement("script");
@@ -36,7 +36,7 @@
             document.getElementById("live2dcanvas").style.width = '75px';
             document.getElementById("live2dcanvas").style.height = '150px';
         } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
-        loadScript("/live2d/script.js", function () {
+        loadScript("script.js", function () {
             loadlive2d("live2dcanvas", "model.json", 0.5);
         });
     })();
