@@ -1,0 +1,232 @@
+{
+  "version": "Sample 1.0.0",
+  "model": "yukina_other-14.moc",
+  "textures": [
+    "yukina_other-14/texture_00.png"
+  ],
+  "controllers": {
+    "param_hit": {},
+    "param_loop": {},
+    "key_trigger": {},
+    "eye_blink": {
+      "min_interval": 500,
+      "max_interval": 6000,
+      "enabled": true
+    },
+    "lip_sync": {
+      "gain": 5.0,
+      "enabled": true
+    },
+    "mouse_tracking": {
+      "smooth_time": 0.15,
+      "enabled": true
+    },
+    "auto_breath": {},
+    "extra_motion": {},
+    "accelerometer": {},
+    "microphone": {},
+    "transform": {},
+    "face_tracking": {},
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
+    "artmesh_culling": {
+      "default_mode": 0
+    },
+    "intimacy_system": {}
+  },
+  "hit_areas": [
+    {
+      "name": "head",
+      "id": "D_PSD.31",
+      "motion": "tap_head"
+    },
+    {
+      "name": "body",
+      "id": "D_PSD1.59"
+    },
+    {
+      "name": "skirt",
+      "id": "D_PSD1.55"
+    },
+    {
+      "name": "skirt2",
+      "id": "D_PSD1.54"
+    }
+  ],
+  "motions": {
+    "idle": [
+      {
+        "file": "yukina_other-14/motions/idle01.mtn"
+      },
+      {
+        "file": "yukina_other-14/motions/idle02.mtn"
+      }
+    ],
+    "tap_head": [
+      {
+        "name": "sing",
+        "file": "yukina_other-14/motions/sing01.mtn",
+        "sound": "live_start_021_02.mp3",
+        "priority": 9
+      },
+      {
+        "name": "kime",
+        "file": "yukina_other-14/motions/kime01.mtn",
+        "sound": "live_start_021_01.mp3",
+        "priority": 9
+      },
+      {
+        "name": "angry",
+        "file": "yukina_other-14/motions/angry01.mtn",
+        "sound": "live_start_021_03.mp3",
+        "priority": 9
+      }
+    ],
+    "tap_body": [
+      {
+        "name": "bye",
+        "file": "yukina_other-14/motions/bye01.mtn",
+        "sound": "full_combo_021_01.mp3",
+        "priority": 9
+      },
+      {
+        "name": "smile1",
+        "file": "yukina_other-14/motions/smile01.mtn",
+        "sound": "full_combo_021_02.mp3",
+        "priority": 9
+      },
+      {
+        "name": "smile",
+        "file": "smile01.mtn",
+        "sound": "full_combo_021_03.mp3",
+        "priority": 9
+      }
+    ],
+    "tap_skirt": [
+      {
+        "name": "throat",
+        "file": "yukina_other-14/motions/nf03.mtn",
+        "sound": "systemProfile_021_2.mp3",
+        "priority": 9
+      },
+      {
+        "name": "concentrate",
+        "file": "yukina_other-14/motions/nf04.mtn",
+        "sound": "systemProfile_021_5.mp3",
+        "priority": 9
+      },
+      {
+        "name": "dad",
+        "file": "yukina_other-14/motions/nf02.mtn",
+        "sound": "systemBand_021_1.mp3",
+        "priority": 9
+      },
+      {
+        "name": "pride",
+        "file": "yukina_other-14/motions/nf05.mtn",
+        "sound": "systemBand_021_2.mp3",
+        "priority": 9
+      },
+      {
+        "name": "practice",
+        "file": "yukina_other-14/motions/nf01.mtn",
+        "sound": "systemBand_021_3.mp3",
+        "priority": 9
+      }
+    ],
+    "tap_skirt2": [
+      {
+        "name": "throat",
+        "file": "yukina_other-14/motions/nf03.mtn",
+        "sound": "systemProfile_021_2.mp3",
+        "priority": 9
+      },
+      {
+        "name": "concentrate",
+        "file": "yukina_other-14/motions/nf04.mtn",
+        "sound": "systemProfile_021_5.mp3",
+        "priority": 9
+      },
+      {
+        "name": "dad",
+        "file": "yukina_other-14/motions/nf02.mtn",
+        "sound": "systemBand_021_1.mp3",
+        "priority": 9
+      },
+      {
+        "name": "pride",
+        "file": "yukina_other-14/motions/nf05.mtn",
+        "sound": "systemBand_021_2.mp3",
+        "priority": 9,
+        "language": "ja"
+      },
+      {
+        "name": "practice",
+        "file": "yukina_other-14/motions/nf01.mtn",
+        "sound": "systemBand_021_3.mp3",
+        "priority": 9
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "yukina_default.exp.json",
+      "file": "yukina_other-14/motions/yukina_default.exp.json"
+    },
+    {
+      "name": "yukina_serious.exp.json",
+      "file": "yukina_other-14/motions/yukina_serious.exp.json"
+    },
+    {
+      "name": "yukina_special.exp.json",
+      "file": "yukina_other-14/motions/yukina_special.exp.json"
+    },
+    {
+      "name": "yukina_strain.exp.json",
+      "file": "yukina_other-14/motions/yukina_strain.exp.json"
+    },
+    {
+      "name": "yukina_surprised.exp.json",
+      "file": "yukina_other-14/motions/yukina_surprised.exp.json"
+    },
+    {
+      "name": "yukina_worry.exp.json",
+      "file": "yukina_other-14/motions/yukina_worry.exp.json"
+    },
+    {
+      "name": "yukina_other-14.physics.json",
+      "file": "yukina_other-14.physics.json"
+    },
+    {
+      "name": "yukina_default.exp.json",
+      "file": "yukina_other-14/motions/yukina_default.exp.json"
+    },
+    {
+      "name": "yukina_other-14.physics.json",
+      "file": "yukina_other-14/motions/yukina_other-14.physics.json"
+    },
+    {
+      "name": "yukina_serious.exp.json",
+      "file": "yukina_other-14/motions/yukina_serious.exp.json"
+    },
+    {
+      "name": "yukina_special.exp.json",
+      "file": "yukina_other-14/motions/yukina_special.exp.json"
+    },
+    {
+      "name": "yukina_strain.exp.json",
+      "file": "yukina_other-14/motions/yukina_strain.exp.json"
+    },
+    {
+      "name": "yukina_surprised.exp.json",
+      "file": "yukina_other-14/motions/yukina_surprised.exp.json"
+    },
+    {
+      "name": "yukina_worry.exp.json",
+      "file": "yukina_other-14/motions/yukina_worry.exp.json"
+    }
+  ],
+  "physics": "yukina_other-14/motions/yukina_other-14.physics.json",
+  "options": {}
+}
