@@ -4,6 +4,11 @@
   "textures": [
     "textures/texture_00.png"
   ],
+     "layout":{
+        "center_x":0.0,
+        "center_y":0.0,
+        "width":2.0
+    },
   "controllers": {
     "param_hit": {},
     "param_loop": {},
