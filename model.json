@@ -63,7 +63,7 @@
         "file": "yukina_other-14/motions/idle02.mtn"
       }
     ],
-    "tap_head": [
+    "flick_head": [
       {
         "name": "sing",
         "file": "yukina_other-14/motions/sing01.mtn",
@@ -103,7 +103,7 @@
    "priority": 9
       }
     ],
-    "tap_skirt": [
+    "flick_skirt": [
       {
         "name": "throat",
         "file": "yukina_other-14/motions/nf03.mtn",
