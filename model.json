@@ -13,10 +13,6 @@
       "max_interval": 6000,
       "enabled": true
     },
-    "lip_sync": {
-      "gain": 5.0,
-      "enabled": true
-    },
     "mouse_tracking": {
       "smooth_time": 0.15,
       "enabled": true
@@ -228,5 +224,5 @@
     }
   ],
   "physics": "yukina_other-14/motions/yukina_other-14.physics.json",
-  "options": {}
+ "lip_sync": "true",
 }
