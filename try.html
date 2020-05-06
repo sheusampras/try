@@ -4,13 +4,13 @@
 </head>
 <body>
 <div>
-    <canvas id="live2dcanvas" width="150" height="300"></canvas>
+    <canvas id="live2dcanvas" width="200" height="350"></canvas>
 </div>
 <style>
     #live2dcanvas {
           position: fixed;
-        width: 150px;
-        height: 300px;
+        width: 200px;
+        height: 350px;
         right: 0px;
         z-index: 999;
         pointer-events: none;
@@ -32,11 +32,11 @@
     };
     (function () {
         if ((typeof(device) != 'undefined') && (device.mobile())) {
-            document.getElementById("live2dcanvas").style.width = '75px';
-            document.getElementById("live2dcanvas").style.height = '150px';
+            document.getElementById("live2dcanvas").style.width = '100px';
+            document.getElementById("live2dcanvas").style.height = '175px';
         } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
         loadScript("script.js", function () {
-            loadlive2d("live2dcanvas", "model.json", 0.5);
+            loadlive2d("live2dcanvas", "model.json");
         });
     })();
 </script>  
