@@ -32,8 +32,8 @@
     };
     (function () {
         if ((typeof(device) != 'undefined') && (device.mobile())) {
-            document.getElementById("live2dcanvas").style.width = '100px';
-            document.getElementById("live2dcanvas").style.height = '175px';
+            document.getElementById("live2dcanvas").style.width = '75px';
+            document.getElementById("live2dcanvas").style.height = '150px';
         } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
         loadScript("script.js", function () {
             loadlive2d("live2dcanvas", "model.json");
