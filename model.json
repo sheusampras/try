@@ -5,6 +5,9 @@
     "textures/texture_00.png"
   ],
   "controllers": {
+        "param_hit": {},
+    "param_loop": {},
+    "key_trigger": {},
     "eye_blink": {
       "min_interval": 500,
       "max_interval": 6000,
@@ -13,7 +16,20 @@
     "mouse_tracking": {
       "smooth_time": 0.15,
       "enabled": true
-    }
+    },
+    "auto_breath": {},
+    "extra_motion": {},
+    "accelerometer": {},
+    "microphone": {},
+    "transform": {},
+    "face_tracking": {},
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
+    "artmesh_culling": {
+      "default_mode": 0
+    },
+    "intimacy_system": {}
   },
   "hit_areas": [
     {
