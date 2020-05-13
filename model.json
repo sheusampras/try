@@ -42,6 +42,7 @@
     {
       "name": "head",
       "id": "D_PSD.31",
+      "motion": "tap_head"
     },
     {
       "name": "body",
