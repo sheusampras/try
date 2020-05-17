@@ -67,24 +67,7 @@
       }
     ],
     "tap_head": [
-      {
-        "name": "sing",
-        "file": "yukina_other-14/motions/sing01.mtn",
-        "sound": "live_start_021_02.mp3",
-        "priority": 9
-      },
-      {
-        "name": "kime",
-        "file": "yukina_other-14/motions/kime01.mtn",
-        "sound": "live_start_021_01.mp3",
-        "priority": 9
-      },
-      {
-        "name": "angry",
-        "file": "yukina_other-14/motions/angry01.mtn",
-        "sound": "live_start_021_03.mp3",
-        "priority": 9
-      }
+
     ],
     "tap_body": [
       {
@@ -104,10 +87,26 @@
         "file": "smile01.mtn",
         "sound": "full_combo_021_03.mp3",
         "priority": 9
-      }
-    ],
-    "tap_skirt": [
+      },
+       {
+        "name": "sing",
+        "file": "yukina_other-14/motions/sing01.mtn",
+        "sound": "live_start_021_02.mp3",
+        "priority": 9
+      },
       {
+        "name": "kime",
+        "file": "yukina_other-14/motions/kime01.mtn",
+        "sound": "live_start_021_01.mp3",
+        "priority": 9
+      },
+      {
+        "name": "angry",
+        "file": "yukina_other-14/motions/angry01.mtn",
+        "sound": "live_start_021_03.mp3",
+        "priority": 9
+      },
+       {
         "name": "throat",
         "file": "yukina_other-14/motions/nf03.mtn",
         "sound": "systemProfile_021_2.mp3",
@@ -136,9 +135,7 @@
         "file": "yukina_other-14/motions/nf01.mtn",
         "sound": "systemBand_021_3.mp3",
         "priority": 9
-      }
-    ],
-    "tap_skirt2": [
+      },
       {
         "name": "throat",
         "file": "yukina_other-14/motions/nf03.mtn",
@@ -170,6 +167,12 @@
         "sound": "systemBand_021_3.mp3",
         "priority": 9
       }
+    ],
+    "tap_skirt": [
+  
+    ],
+    "tap_skirt2": [
+     
     ]
   },
   "expressions": [
