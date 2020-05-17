@@ -71,12 +71,12 @@
     {
       "name": "skirt",
       "id": "D_PSD1.55"
-      "motion": "tap_skirt"
+      "motion":"tap_skirt"
     },
     {
       "name": "skirt2",
       "id": "D_PSD1.54"
-      "motion": "tap_skirt2"
+      "motion":"tap_skirt2"
     }
   ],
   "motions": {
