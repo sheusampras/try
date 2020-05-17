@@ -51,10 +51,12 @@
     {
       "name": "skirt",
       "id": "D_PSD1.55"
+      "motion": "tap_skirt"
     },
     {
       "name": "skirt2",
       "id": "D_PSD1.54"
+      "motion": "tap_skirt2"
     }
   ],
   "motions": {
@@ -67,7 +69,24 @@
       }
     ],
     "tap_head": [
-
+{
+        "name": "sing",
+        "file": "yukina_other-14/motions/sing01.mtn",
+        "sound": "live_start_021_02.mp3",
+        "priority": 9
+      },
+      {
+        "name": "kime",
+        "file": "yukina_other-14/motions/kime01.mtn",
+        "sound": "live_start_021_01.mp3",
+        "priority": 9
+      },
+      {
+        "name": "angry",
+        "file": "yukina_other-14/motions/angry01.mtn",
+        "sound": "live_start_021_03.mp3",
+        "priority": 9
+      }
     ],
     "tap_body": [
       {
@@ -169,10 +188,69 @@
       }
     ],
     "tap_skirt": [
-  
+  {
+        "name": "throat",
+        "file": "yukina_other-14/motions/nf03.mtn",
+        "sound": "systemProfile_021_2.mp3",
+        "priority": 9
+      },
+      {
+        "name": "concentrate",
+        "file": "yukina_other-14/motions/nf04.mtn",
+        "sound": "systemProfile_021_5.mp3",
+        "priority": 9
+      },
+      {
+        "name": "dad",
+        "file": "yukina_other-14/motions/nf02.mtn",
+        "sound": "systemBand_021_1.mp3",
+        "priority": 9
+      },
+      {
+        "name": "pride",
+        "file": "yukina_other-14/motions/nf05.mtn",
+        "sound": "systemBand_021_2.mp3",
+        "priority": 9
+      },
+      {
+        "name": "practice",
+        "file": "yukina_other-14/motions/nf01.mtn",
+        "sound": "systemBand_021_3.mp3",
+        "priority": 9
+      }
     ],
     "tap_skirt2": [
-     
+     {
+        "name": "throat",
+        "file": "yukina_other-14/motions/nf03.mtn",
+        "sound": "systemProfile_021_2.mp3",
+        "priority": 9
+      },
+      {
+        "name": "concentrate",
+        "file": "yukina_other-14/motions/nf04.mtn",
+        "sound": "systemProfile_021_5.mp3",
+        "priority": 9
+      },
+      {
+        "name": "dad",
+        "file": "yukina_other-14/motions/nf02.mtn",
+        "sound": "systemBand_021_1.mp3",
+        "priority": 9
+      },
+      {
+        "name": "pride",
+        "file": "yukina_other-14/motions/nf05.mtn",
+        "sound": "systemBand_021_2.mp3",
+        "priority": 9,
+        "language": "ja"
+      },
+      {
+        "name": "practice",
+        "file": "yukina_other-14/motions/nf01.mtn",
+        "sound": "systemBand_021_3.mp3",
+        "priority": 9
+      }
     ]
   },
   "expressions": [
