@@ -1,16 +1,11 @@
 {
-  "version": "Sample 1.0.0",
   "model": "yukina_other-14.moc",
   "textures": [
     "yukina_other-14/texture_00.png"
   ],
   "controllers": {
-    "param_hit": {
-      "enabled": true
-    },
-    "param_loop": {
-      "enabled": true
-    },
+    "param_hit": {},
+    "param_loop": {},
     "key_trigger": {},
     "eye_blink": {
       "min_interval": 500,
@@ -25,39 +20,22 @@
       "smooth_time": 0.15,
       "enabled": true
     },
-    "auto_breath": {
-      "enabled": true
-    },
-    "extra_motion": {
-      "enabled": true
-    },
-    "accelerometer": {
-      "enabled": true
-    },
-    "microphone": {
-      "enabled": true
-    },
+    "auto_breath": {},
+    "extra_motion": {},
+    "accelerometer": {},
+    "microphone": {},
     "transform": {},
-    "face_tracking": {
-      "enabled": true
-    },
-    "param_value": {
-      "enabled": true
-    },
-    "part_opacity": {
-      "enabled": true
-    },
-    "artmesh_opacity": {
-      "enabled": true
-    },
+    "face_tracking": {},
+    "param_value": {},
+    "part_opacity": {},
+    "artmesh_opacity": {},
     "artmesh_culling": {
-      "default_mode": 0,
-      "enabled": true
+      "default_mode": 0
     },
-    "intimacy_system": {
-      "enabled": true
-    }
-      },
+    "intimacy_system": {}
+  },
+  "options": {}
+
   "hit_areas": [
     {
       "name": "head",
