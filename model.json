@@ -1,13 +1,19 @@
 {
-    "version": "Sample 1.0.0",
+  "version": "Sample 1.0.0",
   "model": "yukina_other-14.moc",
   "textures": [
-    "yukina_other-14/texture_00.png"
+    "textures/texture_00.png"
   ],
   "controllers": {
-    "param_hit": {},
-    "param_loop": {},
-    "key_trigger": {},
+    "param_hit": {
+      "enabled": true
+    },
+    "param_loop": {
+      "enabled": true
+    },
+    "key_trigger": {
+      "enabled": true
+    },
     "eye_blink": {
       "min_interval": 500,
       "max_interval": 6000,
@@ -21,22 +27,39 @@
       "smooth_time": 0.15,
       "enabled": true
     },
-    "auto_breath": {},
-    "extra_motion": {},
-    "accelerometer": {},
-    "microphone": {},
-    "transform": {},
-    "face_tracking": {},
-    "param_value": {},
-    "part_opacity": {},
-    "artmesh_opacity": {},
-    "artmesh_culling": {
-      "default_mode": 0
+    "auto_breath": {
+      "enabled": true
     },
-    "intimacy_system": {}
+    "extra_motion": {
+      "enabled": true
+    },
+    "accelerometer": {
+      "enabled": true
+    },
+    "microphone": {
+      "enabled": true
+    },
+    "transform": {},
+    "face_tracking": {
+      "enabled": true
+    },
+    "param_value": {
+      "enabled": true
+    },
+    "part_opacity": {
+      "enabled": true
+    },
+    "artmesh_opacity": {
+      "enabled": true
+    },
+    "artmesh_culling": {
+      "default_mode": 0,
+      "enabled": true
+    },
+    "intimacy_system": {
+      "enabled": true
+    }
   },
-  "options": {}
-
   "hit_areas": [
     {
       "name": "head",
