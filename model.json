@@ -88,23 +88,26 @@
         "file": "yukina_other-14/motions/idle02.mtn"
       }
     ],
-    "tap_head": [
-{
+   "tap_head": [
+      {
         "name": "sing",
         "file": "yukina_other-14/motions/sing01.mtn",
         "sound": "live_start_021_02.mp3",
+        "text": "完美的、展現我的決心。",
         "priority": 9
       },
       {
         "name": "kime",
         "file": "yukina_other-14/motions/kime01.mtn",
         "sound": "live_start_021_01.mp3",
+        "text": "目標只有一個、那就是頂點！",
         "priority": 9
       },
       {
         "name": "angry",
         "file": "yukina_other-14/motions/angry01.mtn",
         "sound": "live_start_021_03.mp3",
+        "text": "不要大意了、盡全力上吧！",
         "priority": 9
       }
     ],
@@ -113,129 +116,114 @@
         "name": "bye",
         "file": "yukina_other-14/motions/bye01.mtn",
         "sound": "full_combo_021_01.mp3",
+        "text": "唱得越來越好了呢。",
         "priority": 9
       },
       {
         "name": "smile1",
         "file": "yukina_other-14/motions/smile01.mtn",
         "sound": "full_combo_021_02.mp3",
+        "text": "下次也要朝著最棒的舞台邁進。",
         "priority": 9
       },
       {
         "name": "smile",
         "file": "smile01.mtn",
         "sound": "full_combo_021_03.mp3",
+        "text": "這是一場很棒的live哦。",
         "priority": 9
       },
-       {
+      {
         "name": "sing",
         "file": "yukina_other-14/motions/sing01.mtn",
         "sound": "live_start_021_02.mp3",
+        "text": "完美的、展現我的決心。",
         "priority": 9
       },
       {
         "name": "kime",
         "file": "yukina_other-14/motions/kime01.mtn",
         "sound": "live_start_021_01.mp3",
+        "text": "目標只有一個、那就是頂點！",
         "priority": 9
       },
       {
         "name": "angry",
         "file": "yukina_other-14/motions/angry01.mtn",
         "sound": "live_start_021_03.mp3",
-        "priority": 9
-      },
-       {
-        "name": "throat",
-        "file": "yukina_other-14/motions/nf03.mtn",
-        "sound": "systemProfile_021_2.mp3",
+        "text": "不要大意了、盡全力上吧！",
         "priority": 9
       },
       {
         "name": "concentrate",
         "file": "yukina_other-14/motions/nf04.mtn",
         "sound": "systemProfile_021_5.mp3",
+        "text": "對於他人的親切我不太擅長應付、因為我只想專注於音樂。",
         "priority": 9
       },
       {
         "name": "dad",
         "file": "yukina_other-14/motions/nf02.mtn",
         "sound": "systemBand_021_1.mp3",
+        "text": "由於受到父親很大的影響、所以我才走上唱歌這條路。",
         "priority": 9
       },
       {
         "name": "pride",
         "file": "yukina_other-14/motions/nf05.mtn",
         "sound": "systemBand_021_2.mp3",
-        "priority": 9
-      },
-      {
-        "name": "practice",
-        "file": "yukina_other-14/motions/nf01.mtn",
-        "sound": "systemBand_021_3.mp3",
+        "text": "因為從小就開始唱歌、所以我對我的音量是很有自信的。",
         "priority": 9
       },
       {
         "name": "throat",
         "file": "yukina_other-14/motions/nf03.mtn",
         "sound": "systemProfile_021_2.mp3",
+        "text": "喜歡的飲料是......蜂蜜加茶、對喉嚨很好。",
         "priority": 9
-      },
-      {
-        "name": "concentrate",
-        "file": "yukina_other-14/motions/nf04.mtn",
-        "sound": "systemProfile_021_5.mp3",
-        "priority": 9
-      },
-      {
-        "name": "dad",
-        "file": "yukina_other-14/motions/nf02.mtn",
-        "sound": "systemBand_021_1.mp3",
-        "priority": 9
-      },
-      {
-        "name": "pride",
-        "file": "yukina_other-14/motions/nf05.mtn",
-        "sound": "systemBand_021_2.mp3",
-        "priority": 9,
-        "language": "ja"
       },
       {
         "name": "practice",
         "file": "yukina_other-14/motions/nf01.mtn",
         "sound": "systemBand_021_3.mp3",
+        "text": "只把練習當練習是不行的、練習要朝著實際登場看待。",
         "priority": 9
       }
     ],
     "tap_skirt": [
-  {
+      {
         "name": "throat",
         "file": "yukina_other-14/motions/nf03.mtn",
         "sound": "systemProfile_021_2.mp3",
+        "text": "喜歡的飲料是......蜂蜜加茶、對喉嚨很好。",
         "priority": 9
       },
       {
         "name": "concentrate",
         "file": "yukina_other-14/motions/nf04.mtn",
         "sound": "systemProfile_021_5.mp3",
+        "text": "對於他人的親切我不太擅長應付、因為我只想專注於音樂。",
         "priority": 9
       },
       {
         "name": "dad",
         "file": "yukina_other-14/motions/nf02.mtn",
         "sound": "systemBand_021_1.mp3",
+        "text": "由於受到父親很大的影響、所以我才走上唱歌這條路。",
         "priority": 9
       },
       {
         "name": "pride",
         "file": "yukina_other-14/motions/nf05.mtn",
         "sound": "systemBand_021_2.mp3",
+        "text": "因為從小就開始唱歌、所以我對我的音量是很有自信的。",
         "priority": 9
       },
       {
         "name": "practice",
         "file": "yukina_other-14/motions/nf01.mtn",
         "sound": "systemBand_021_3.mp3",
+        "text": "只把練習當練習是不行的、練習要朝著實際登場看待。",
         "priority": 9
       }
     ],
