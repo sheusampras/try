@@ -805,7 +805,7 @@ table.alt tbody tr td {
   opacity: 0;
   transition: .5s ease;
 }
-.highlights:hover .overlay {
+.highlights:hover .content .overlay {
   opacity: 1;
 }
 
