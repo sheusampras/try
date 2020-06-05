@@ -794,6 +794,22 @@ table.alt tbody tr td {
   background: #ffffff;
   box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.025); }
 
+.highlights .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+.highlights:hover .overlay {
+  opacity: 1;
+}
+
+
 /* Testimonials */
 .testimonials {
   margin: 2.5rem 0;
@@ -2062,7 +2078,7 @@ ul.icons {
   background-color: #ce1b28;
   color: rgba(255, 255, 255, 0.75);
   background-attachment: fixed;
-  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(neo.jpg);
+  background-image: linear-gradient(rgba(206, 27, 40, 0.25), rgba(206, 27, 40, 0.25)), url(https://raw.githubusercontent.com/sheusampras/try/master/neo.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
