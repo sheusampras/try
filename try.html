@@ -350,5 +350,18 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<img id="goTop" src="tumblr_opcqlfRb6z1w8d8svo7_1280.png"  height="40%" title="至頂部"/>
+<script>
+$.extend($.easing, {
+easeOutExpo: function (x, t, b, c, d) {
+return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+}
+});
+$("#goTop").click(function(){
+$("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+});
+</script>
+
+	
 </body>
 </html>
