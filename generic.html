@@ -112,6 +112,24 @@ opacity: 1;
 height: 15%; 
 }
 			</style>
+		
+		
+		<script type="text/javascript">
+		function openPopup() {
+	$('#openModal').css({'display': 'block'});
+	setTimeout(function() {
+		$('#openModal').css({'opacity': '1', 'pointer-events': 'auto'});	
+	}, 500);
+}
+function closePopup() {
+	$('#openModal').css({'opacity': '0', 'pointer-events': 'none'});
+	setTimeout(function() {
+		$('#openModal').css({'display': 'none'});	
+	}, 500);
+};
+			</script>
+		
+		
 	</head>
 	<body class="is-preload">
 
@@ -155,6 +173,13 @@ height: 15%;
 　
 
 						<div class="text-center top-item" style="padding: 5px;">
+							
+							
+							<div id="openModal" class="modalDialog">
+	<div>
+		<div onclick="closePopup()" title="Close" class="close">X</div>
+		
+
   
 <td>  <a href="/try/song/264/Blessing.html" data-ajax-url="/ajax/song/264/" data-ajax-title="Blessing Chord">
     
@@ -165,6 +190,11 @@ height: 15%;
     
   </a>
   
+									</div>
+</div>
+ 
+<a onclick="openPopup()">打開</a>
+								
 </div>
 
     <div class="text-center top-item" style="padding: 5px;">
