@@ -112,6 +112,28 @@ opacity: 1;
 height: 15%; 
 }
 			</style>
+		<script type="text/javascript">
+		$(document).ready(function() {
+	$('#page-help').each(function() {
+		var $link = $(this);
+		var $dialog = $('<div></div>')
+			.load($link.attr('href'))
+			.dialog({
+				autoOpen: false,
+				title: $link.attr('title'),
+				width: 500,
+				height: 300
+			});
+
+		$link.click(function() {
+			$dialog.dialog('open');
+
+			return false;
+		});
+	});
+});
+    
+		
 		
 		
 		<script type="text/javascript">
@@ -181,26 +203,7 @@ function closePopup() {
 		
 <td><a id="page-help" href="/try/song/264/Blessing.html" onclick="window.open(this.href, 'popupwindow', 'width=500,height=300'); return false;"> <img src="//i.bandori.party/u/s/264Blessing-Chord-w230v5.png" alt="Blessing Chord" class="song-image img-responsive" style=" max-height: 300px;"></a></td>
   
-$(document).ready(function() {
-	$('#page-help').each(function() {
-		var $link = $(this);
-		var $dialog = $('<div></div>')
-			.load($link.attr('href'))
-			.dialog({
-				autoOpen: false,
-				title: $link.attr('title'),
-				width: 500,
-				height: 300
-			});
 
-		$link.click(function() {
-			$dialog.dialog('open');
-
-			return false;
-		});
-	});
-});
-    
     
     
   </a>
