@@ -1,0 +1,92 @@
+<html>
+<title>Roselia</title>
+  <head>
+<style>
+     body
+    {
+         margin:0px;
+padding:0px;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/final/master/1234.png') center center fixed no-repeat;
+background-size: cover;
+    }
+    .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+    </style>
+  </head>
+  
+  
+<body>
+
+<center>
+
+<div class="text">
+<br />
+<img src="https://bangdream.up.seesaa.net/image/IMG_20200620_111505.jpg" width="400" height="400">
+<br /><br />
+<strong>
+<span style="font-size:large;">Avant-garde HISTORY</span><br /><span style="color:#0000ff;">Roselia</span>
+</strong><br />
+作詞：織田あすか（Elements Garden）<br />作曲：藤田淳平（Elements Garden）<br />編曲：藤田淳平（Elements Garden）<br />
+
+
+<audio controls>
+  <source src="bgm266.mp3" type="audio/mpeg">
+你的瀏覽器可能不支援撥放器。
+</audio>
+
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+<br />
+<br />歌詞<br />
+<br />
+非情な現実に飲み込まれても<br />涙の中感謝を伝う<br />辛い悲しみごと背負いながら歌った<br />
+軌跡全て意味があったと知れたから<br /><br />(Wow wow wow)<br />Everyone (Wow wow wow)<br /><br />Fight it out Fight it out 己自身<br />
+Fight it out Fight it out 罪を穿て<br /><br />(Fight it out Fight it out 真の強さ)<br />(Fight it out Fight it out 胸に宿せ)<br /><br />
+誇りを失おうとも 此処にいたいと願った<br />尊いあの日から 私達に終焉は来ない<br /><br />Ah...(輝く思い)<br />We are one (煌めく声)<br />
+乗り越えた先の景色を 美しいと知るからこそ<br />前を向いて進めるの <br />(Wow wow wow)<br />永遠に(Wow wow wow)<br /><br /><br /><br />
+ </div>
+ 
+
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+   </center>
+ 
+</body>
+</html>
