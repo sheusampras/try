@@ -6,7 +6,6 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
 		
-		 <link rel="stylesheet" href="//i.bandori.party/static/css/style.css?36-12-6">
 		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<style>
@@ -180,12 +179,27 @@ function closePopup() {
 	
 		<div onclick="closePopup()" title="Close" class="close">X</div>
 		
-
+<td><a id="page-help" href="/try/song/264/Blessing.html" onclick="window.open(this.href, 'popupwindow', 'width=500,height=300'); return false;"> <img src="//i.bandori.party/u/s/264Blessing-Chord-w230v5.png" alt="Blessing Chord" class="song-image img-responsive" style=" max-height: 300px;"></a></td>
   
-<td> <a onclick="openPopup()"> <a href="/try/song/264/Blessing.html" data-ajax-url="/ajax/song/264/" data-ajax-title="Blessing Chord">
-    
-    
-    <img src="//i.bandori.party/u/s/264Blessing-Chord-w230v5.png" alt="Blessing Chord" class="song-image img-responsive" style=" max-height: 300px;"></a></td>
+$(document).ready(function() {
+	$('#page-help').each(function() {
+		var $link = $(this);
+		var $dialog = $('<div></div>')
+			.load($link.attr('href'))
+			.dialog({
+				autoOpen: false,
+				title: $link.attr('title'),
+				width: 500,
+				height: 300
+			});
+
+		$link.click(function() {
+			$dialog.dialog('open');
+
+			return false;
+		});
+	});
+});
     
     
     
