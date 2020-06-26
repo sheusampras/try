@@ -11,14 +11,6 @@
 	margin: 0 auto;
 	z-index: 0;
 }
-.character .bgArea {
-	position: fixed;
-	display: block;
-	width: 100%;
-	height: 100%;
-	background:url(/shironekoproject/assets/img/chara/bg.jpg) 50% 0 no-repeat;
-	z-index: 0;
-}
 .character .contents {
 	position: relative;
 	width: 100%;
@@ -38,16 +30,7 @@
 .character .subNavArea li {
 	display: inline-block;
 }
-.character .mainCharaTab  {
-	width: 448px;
-	height: 90px;
-	background:url(/shironekoproject/assets/img/chara/subnav01_on.png) 50% 0 no-repeat;
-}
-.character .subCharaTab  {
-	width: 448px;
-	height: 90px;
-	background:url(/shironekoproject/assets/img/chara/subnav02_on.png) 50% 0 no-repeat;
-}
+
 .character .active img {
 	opacity: 0;
 }
@@ -57,7 +40,7 @@
 	position: relative;
 	width: 100%;
 	height: 700px;
-	background:url(/shironekoproject/assets/img/chara/chara_bg01.png) 50% 0 no-repeat;
+	background:url(chara_bg01.png) 50% 0 no-repeat;
 	z-index: 1;
 }
 .character .mainCharaArea .chara01 .chara2d {
@@ -65,28 +48,21 @@
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara01.png) 50% 0 no-repeat;
-}
-.character .mainCharaArea .chara01 .chara3d {
-	position: absolute;
-	width: 100%;
-	height: 700px;
-	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara01_3d.png) 50% 0 no-repeat;
+	background:url(trim_after_training (1).png) 50% 0 no-repeat;
 }
 .character .mainCharaArea .chara01 .text {
 	position: absolute;
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara01_text.png) 50% 0 no-repeat;
+	background:url(1593180161_931988.png) 50% 0 no-repeat;
 }
 /* chara02 */
 .character .mainCharaArea .chara02 {
 	position: relative;
 	width: 100%;
 	height: 700px;
-	background:url(/shironekoproject/assets/img/chara/chara_bg01.png) 50% 0 no-repeat;
+	background:url(chara_bg01.png) 50% 0 no-repeat;
 	z-index: 1;
 	top: -30px;
 }
@@ -95,28 +71,21 @@
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara02.png) 50% 0 no-repeat;
-}
-.character .mainCharaArea .chara02 .chara3d {
-	position: absolute;
-	width: 100%;
-	height: 700px;
-	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara02_3d.png) 50% 0 no-repeat;
+	background:url(trim_after_training (2).png) 50% 0 no-repeat;
 }
 .character .mainCharaArea .chara02 .text {
 	position: absolute;
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara02_text.png) 50% 0 no-repeat;
+	background:url(1593180279_163796.png) 50% 0 no-repeat;
 }
 /* chara03 */
 .character .mainCharaArea .chara03 {
 	position: relative;
 	width: 100%;
 	height: 700px;
-	background:url(/shironekoproject/assets/img/chara/chara_bg01.png) 50% 0 no-repeat;
+	background:url(chara_bg01.png) 50% 0 no-repeat;
 	z-index: 1;
 	top: -50px;
 }
@@ -125,21 +94,14 @@
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara03.png) 50% 0 no-repeat;
-}
-.character .mainCharaArea .chara03 .chara3d {
-	position: absolute;
-	width: 100%;
-	height: 700px;
-	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara03_3d.png) 50% 0 no-repeat;
+	background:url(trim_normal.png) 50% 0 no-repeat;
 }
 .character .mainCharaArea .chara03 .text {
 	position: absolute;
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara03_text.png) 50% 0 no-repeat;
+	background:url(1593180062_906479.png) 50% 0 no-repeat;
 }
 
 /* chara04 */
@@ -147,7 +109,7 @@
 	position: relative;
 	width: 100%;
 	height: 700px;
-	background:url(/shironekoproject/assets/img/chara/chara_bg01.png) 50% 0 no-repeat;
+	background:url(chara_bg01.png) 50% 0 no-repeat;
 	z-index: 1;
 	top: -90px;
 }
@@ -156,21 +118,37 @@
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara04.png) 50% 0 no-repeat;
-}
-.character .mainCharaArea .chara04 .chara3d {
-	position: absolute;
-	width: 100%;
-	height: 700px;
-	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara04_3d.png) 50% 0 no-repeat;
+	background:url(trim_after_training.png) 50% 0 no-repeat;
 }
 .character .mainCharaArea .chara04 .text {
 	position: absolute;
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/shironekoproject/assets/img/chara/main_chara04_text.png) 50% 0 no-repeat;
+	background:url(1593180401_733213.png) 50% 0 no-repeat;
+}
+/* chara05 */
+.character .mainCharaArea .chara05 {
+	position: relative;
+	width: 100%;
+	height: 700px;
+	background:url(chara_bg01.png) 50% 0 no-repeat;
+	z-index: 1;
+	top: -90px;
+}
+.character .mainCharaArea .chara05 .chara2d {
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	top: 0;
+	background:url(trim_after_training (3).png) 50% 0 no-repeat;
+}
+.character .mainCharaArea .chara05 .text {
+	position: absolute;
+	width: 100%;
+	height: 700px;
+	top: 0;
+	background:url(1593180620_341436.png) 50% 0 no-repeat;
 }
 
 .character .motion {
