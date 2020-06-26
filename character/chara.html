@@ -169,8 +169,8 @@ height: 15%;
             document.getElementById("live2dcanvas").style.width = '100px';
             document.getElementById("live2dcanvas").style.height = '175px';
         } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
-        loadScript("script.js", function () {
-            loadlive2d("live2dcanvas", "model.json");
+        loadScript("https://sheusampras.github.io/try/script.js", function () {
+            loadlive2d("live2dcanvas", "https://sheusampras.github.io/try/model.json");
         });
     })();
 </script>  
@@ -192,17 +192,6 @@ $("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
 });
 </script>
 	
-	<script>
-  
-  pagination('/try/song/', '');
-</script>
-
-<script>
-  var ajax_reload_url = '/try/song/';
-  var ajax_pagination_callback = null;
-  var reload_data_item = 'song';
-  var ids_to_reload = [];
-</script>
 
 
 
