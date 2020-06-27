@@ -1,4 +1,4 @@
-<<html>
+<html>
 	<head>
 		<title>音樂歌曲</title>
 		<meta charset="utf-8" />
@@ -80,7 +80,8 @@ height: 15%;
 	      
 	      
       
-      <footer id="footer">
+      
+      	<footer id="footer">
 				<div class="inner">
 					<div class="content">
 						<iframe src="https://open.spotify.com/embed/artist/1bljHdc9g7V7ZLkYuf4yfy" width="380" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
@@ -112,13 +113,6 @@ height: 15%;
 <div>
     <canvas id="live2dcanvas" width="200" height="350"></canvas>
 </div>
-
-
-
-
-
-
-
 
 
 <style>
@@ -153,8 +147,8 @@ height: 15%;
             document.getElementById("live2dcanvas").style.width = '100px';
             document.getElementById("live2dcanvas").style.height = '175px';
         } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
-        loadScript("script.js", function () {
-            loadlive2d("live2dcanvas", "model.json");
+        loadScript("https://sheusampras.github.io/try/script.js", function () {
+            loadlive2d("live2dcanvas", "https://sheusampras.github.io/try/model.json");
         });
     })();
 </script>  
@@ -176,13 +170,6 @@ $("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
 });
 </script>
 	
-
-<script>
-  var ajax_reload_url = '/try/song/';
-  var ajax_pagination_callback = null;
-  var reload_data_item = 'song';
-  var ids_to_reload = [];
-</script>
 
 
 
