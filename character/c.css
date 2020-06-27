@@ -24,7 +24,7 @@
 	position: relative;
 	width: 100%;
 	height: 700px;
-	background:url(/character/chara_bg01.png) 50% 0 no-repeat;
+	
 	z-index: 1;
 }
 .character .mainCharaArea .chara01 .chara2d {
@@ -32,14 +32,14 @@
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/character/trim_after_training (1).png) 50% 0 no-repeat;
+	
 }
 .character .mainCharaArea .chara01 .text {
 	position: absolute;
 	width: 100%;
 	height: 700px;
 	top: 0;
-	background:url(/character/1593180161_931988.png) 50% 0 no-repeat;
+	
 }
 /* chara02 */
 .character .mainCharaArea .chara02 {
