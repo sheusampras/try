@@ -1,6 +1,4 @@
-.character {
-	background: #322417;
-}
+
 .character .wrap {
 	position: relative;
 	display: block;
@@ -15,20 +13,6 @@
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
-}
-.character .title {
-	text-align: center;
-	padding:50px 0 35px;
-}
-.character .subNavArea {
-	width: 100%;
-}
-.character .subNavArea ul {
-	text-align: center;
-	padding:40px 0 20px;
-}
-.character .subNavArea li {
-	display: inline-block;
 }
 
 .character .active img {
