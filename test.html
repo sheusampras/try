@@ -1,0 +1,192 @@
+<html>
+	<head>
+		<title>音樂歌曲</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src='//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+		 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/humanity/jquery-ui.css" type="text/css" />
+		
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<style>
+		
+			
+			
+			
+			
+			
+			
+			#goTop {
+position: fixed;
+bottom: 5px; 
+right: 5px; 
+height: 10%; 
+opacity: 0.4; 
+z-index: 10;
+cursor: pointer;
+transition: all .5s; 
+-webkit-transition: all .5s;
+-moz-transition: all .5s;
+}
+#goTop:hover { 
+opacity: 1;  
+height: 15%; 
+}
+			</style>
+      <body class="is-preload">
+      <header id="header">
+				<a class="logo" href="try.html">首頁</a>
+				<nav>
+					<a href="#menu">Menu</a>
+				</nav>
+			</header>
+
+	
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="try.html">首頁</a></li>
+					<li><a href="elements.html">Elements</a></li>
+					<li><a href="generic.html">Generic</a></li>
+				</ul>
+			</nav>
+
+		
+			<div id="heading" >
+				<h1>音樂</h1>
+			</div>
+      
+      <footer id="footer">
+				<div class="inner">
+					<div class="content">
+						<iframe src="https://open.spotify.com/embed/artist/1bljHdc9g7V7ZLkYuf4yfy" width="380" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+						<section>
+							<h4>      支援網站</h4>
+							<ul class="alt">
+								<li><a href="https://bandori.party/">bandori派對</a></li>
+								<li><a href="https://bestdori.com/">bestori</a></li>
+								<li><a href="https://bang-dream.com/">官方網站</a></li>
+								<li><a href="https://forum.gamer.com.tw/A.php?bsn=31877">巴哈姆特</a></li>
+							</ul>
+						</section>
+						<section>
+							<h4>相關連結</h4>
+							<ul class="plain">
+								<li><a href="https://twitter.com/bang_dream_gbp"><i class="icon fa-twitter">&nbsp;</i>Twitter</a></li>
+								<li><a href="https://www.youtube.com/channel/UCN-bFIdJM0gQlgX7h6LKcZA"><i class="icon fa-youtube">&nbsp;</i>Youtube</a></li>
+								<li><a href="https://www.instagram.com/bang_dream_official_/"><i class="icon fa-instagram">&nbsp;</i>Instagram</a></li>
+							</ul>
+						</section>
+					</div>
+					<div class="copyright">
+						&copy; 此網站由 <a href="https://www.facebook.com/sheusampras/">許哲嘉</a>製作且無營利，若有任何版權問題請聯繫我
+					</div>
+				</div>
+			</footer>
+    
+
+<div>
+    <canvas id="live2dcanvas" width="200" height="350"></canvas>
+</div>
+
+
+
+
+
+<div class="modal fade" id="ajaxModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h1 class="modal-title"></h1>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">去</button>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+<style>
+    #live2dcanvas {
+          position: fixed;
+        width: 200px;
+        height: 350px;
+        left: 0px;
+        z-index: 999;
+        pointer-events: none;
+        bottom: -20px;
+    }
+    
+    
+    
+</style>
+<script type="text/javascript" src="device.min.js"></script>
+<script type="text/javascript">
+    const loadScript = function loadScript(c, b) {
+        var a = document.createElement("script");
+        a.type = "text/javascript";
+        "undefined" != typeof b && (a.readyState ? a.onreadystatechange = function () {
+            if ("loaded" == a.readyState || "complete" == a.readyState) a.onreadystatechange = null, b()
+        } : a.onload = function () {
+            b()
+        });
+        a.src = c;
+        document.body.appendChild(a)
+    };
+    (function () {
+        if ((typeof(device) != 'undefined') && (device.mobile())) {
+            document.getElementById("live2dcanvas").style.width = '100px';
+            document.getElementById("live2dcanvas").style.height = '175px';
+        } else if (typeof(device) === 'undefined') console.error('Cannot find current-device script.');
+        loadScript("script.js", function () {
+            loadlive2d("live2dcanvas", "model.json");
+        });
+    })();
+</script>  
+		<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+<img id="goTop" src="https://t1.hbl917070.nctu.me/img/show?img=https://truth.bahamut.com.tw/s01/202006/ee2abd445f216da6608eefe6defd85a3.PNG&img=https://truth.bahamut.com.tw/s01/202006/4dcc57f4d038fbac2501daf5c0c966cd.PNG&img=https://truth.bahamut.com.tw/s01/202006/2a0c2e25c4159bf8d47a9f247d51e46e.PNG&img=https://truth.bahamut.com.tw/s01/202006/00e75d09ef9b22ba81594adec9392200.PNG&img=https://truth.bahamut.com.tw/s01/202006/0629d1be0ed47f85687f33c71a09a74e.PNG" title="至頂部"/>
+<script>
+$.extend($.easing, {
+easeOutExpo: function (x, t, b, c, d) {
+return (t==d) ? b+c : c * (-Math.pow(2, -10 * t/d) + 1) + b;
+}
+});
+$("#goTop").click(function(){
+$("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
+});
+</script>
+	
+	<script>
+  
+  pagination('/try/song/', '');
+</script>
+
+<script>
+  var ajax_reload_url = '/try/song/';
+  var ajax_pagination_callback = null;
+  var reload_data_item = 'song';
+  var ids_to_reload = [];
+</script>
+
+
+
+
+
+    </div>
+
+	</body>
+</html>
