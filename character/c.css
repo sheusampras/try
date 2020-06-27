@@ -182,26 +182,11 @@
 	-ms-transition-delay: 500ms;
 	transition-delay: 500ms;
 }
-.character .motion .chara3d {
-	opacity: 0;
-	margin-left: -60px;
-	-webkit-transition: all .6s ease;
-	-moz-transition: all .6s ease;
-	-ms-transition: all .6s ease;
-	transition: all .6s ease;
-	-webkit-transition-delay: 500ms;
-	-moz-transition-delay: 500ms;
-	-ms-transition-delay: 500ms;
-	transition-delay: 500ms;
-}
+
 
 .character .chara01 .chara2d,
 .character .chara03 .chara2d {
 	margin-left: -60px;
-}
-.character .chara01 .chara3d,
-.character .chara03 .chara3d {
-	margin-left: 60px;
 }
 
 .character .fadeInDown {
@@ -212,9 +197,6 @@
 	top: 0;
 }
 .character .fadeInDown .chara2d {
-	opacity: 1;
-	margin-left: 0;
-}.character .fadeInDown .chara3d {
 	opacity: 1;
 	margin-left: 0;
 }
