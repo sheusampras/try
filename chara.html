@@ -52,7 +52,7 @@
 .col-1 {float:left}
 .col-2 {float:right;padding-right:500px;}
 img {visibility:hidden;}
-			hr {margin-top:400px;}
+			hr {margin-top:375px;}
 
 			
 			
@@ -117,23 +117,23 @@ height: 15%;
 </div>
 <hr/>
 <div class="chara02 motion">
-	<div class="chara2d"></div>
-	<div class="text"></div>
+	<div class="col-1"><div class="chara2d"><img id="1Img" src="/try/character/sa.png" 50% 0 no-repeat></div></div> 
+	<div class="col-2"><div class="text"><img id="2Img" src="//try/character/1593180279_163796.png" 50% 0 no-repeat></div></div> 
 </div>
 				<hr/>
 <div class="chara03 motion">
-	<div class="chara2d"></div>
-	<div class="text"></div>
+	<div class="col-1"><div class="chara2d"><img id="3Img" src="/try/character/lisa.png" 50% 0 no-repeat></div></div> 
+	<div class="col-2"><div class="text"><img id="4Img" src="/try/character/1593180062_906479.png" 50% 0 no-repeat></div></div> 
 </div>
 				<hr/>
 <div class="chara04 motion">
-	<div class="chara2d"></div>
-	<div class="text"></div>
+	<div class="col-1"><div class="chara2d"><img id="5Img" src="/try/character/ako.png" 50% 0 no-repeat></div></div> 
+	<div class="col-2"><div class="text"><img id="6Img" src="/try/character/1593180401_733213.png" 50% 0 no-repeat></div></div> 
 </div>
 				<hr/>
 <div class="chara05 motion">
-	<div class="chara2d"></div>
-	<div class="text"></div>
+	<div class="col-1"><div class="chara2d"><img id="7Img" src="/try/character/rin.png" 50% 0 no-repeat></div></div> 
+	<div class="col-2"><div class="text"><img id="8Img" src="/try/character/1593180620_341436.png" 50% 0 no-repeat></div></div> 
 </div>				
 </div>
 </div>
@@ -244,6 +244,30 @@ function myFunction() {
   if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
     document.getElementById("myImg").className = "slideUp";
     document.getElementById("youImg").className = "slideUp";
+  }
+}
+	function myFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+    document.getElementById("1Img").className = "slideUp";
+    document.getElementById("2Img").className = "slideUp";
+  }
+}
+		function myFunction() {
+  if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
+    document.getElementById("3Img").className = "slideUp";
+    document.getElementById("4Img").className = "slideUp";
+  }
+}
+		function myFunction() {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+    document.getElementById("5Img").className = "slideUp";
+    document.getElementById("6Img").className = "slideUp";
+  }
+}
+		function myFunction() {
+  if (document.body.scrollTop > 1250|| document.documentElement.scrollTop > 1250) {
+    document.getElementById("7Img").className = "slideUp";
+    document.getElementById("8Img").className = "slideUp";
   }
 }
 </script>
