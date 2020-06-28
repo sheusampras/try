@@ -18,6 +18,43 @@
 		
 		<style>
 		
+			.slideUp {
+  animation-name: slideUp;
+  -webkit-animation-name: slideUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  visibility: visible;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slideUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(70%);
+  } 
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0%);
+  }
+}
+
+
+.col-1 {float:left}
+.col-2 {float:left;padding-left:25px;}
+img {width:180px;height:100px;visibility:hidden;}
+hr {margin-top:400px;}
+			
+			
 			
 			
 			
@@ -74,8 +111,8 @@ height: 15%;
 			
 			<div class="mainCharaArea">
 <div class="chara01 motion">
-	<div class="chara2d"></div>
-	<div class="text"></div>
+	<div class="col-1"><div class="chara2d"><img id="myImg" src="/try/character/yuki.png" width="60%" height="60%"></div></div> 
+	<div class="text"><img id="youImg" src="/try/character/1593180161_931988.png" width="30%" height="30%"></div>
 </div>
 
 <div class="chara02 motion">
@@ -193,10 +230,24 @@ $("html, body").animate({scrollTop: 0}, 1000, "easeOutExpo");
 });
 </script>
 	
+			
+			
+
+<script>
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  if (document.body.scrollTop > 250 || document.documentElement.scrollTop > 250) {
+    document.getElementById("myImg").className = "slideUp";
+    document.getElementById("youImg").className = "slideUp";
+  }
+}
+</script>
 
 
-
-
+			
+			
+			
 
     </div>
 
