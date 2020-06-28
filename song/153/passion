@@ -1,0 +1,111 @@
+<html>
+<title>Roselia</title>
+  <head>
+<style>
+     body
+    {
+         margin:0px;
+padding:0px;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/final/master/1234.png') center center fixed no-repeat;
+background-size: cover;
+    }
+    .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #5a46a9; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/try/master/970.png') ;
+background-size: cover;
+  overflow: hidden;
+}
+.panel1 {
+  padding: 0 18px;
+  display: none;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/try/master/48.png') ;
+background-size: cover;
+  overflow: hidden;
+}
+    </style>
+  </head>
+  
+  
+<body>
+
+<center>
+
+<div class="text">
+<br />
+<img src="https://i.bandori.party/u/s/153PASSIONATE-ANTHEM-CFmlkO.png" width="400" height="400">
+<br /><br />
+<strong>
+<span style="font-size:large;">PASSIONATE ANTHEM</span><br /><span style="color:#0000ff;">Roselia</span>
+</strong><br />
+作詞：織田あすか（Elements Garden）<br />作曲：藤永龍太郎（Elements Garden）<br /><strong>編曲：藤永龍太郎（Elements Garden）</strong><br />
+
+
+<audio controls>
+  <source src="bgm153.mp3" type="audio/mpeg">
+你的瀏覽器可能不支援撥放器。
+</audio>
+
+
+<button class="accordion">日文歌詞</button>
+<div class="panel">
+<br />
+<br /><br />
+<br />
+<br />(We went all out to win)  Passionate Gaze <br/> (We went all out to win)  Passionate Voice <br/>(We went all out to win) Passionate Soul<br />(We went all out to win)<br /><br />眼差しは　唯ひたすらに愚直さを込めて<br />
+魂と本能をくすぐっていった<br />新たな挑戦が　本物へと近づく…<br />どんなステージだって　微笑みをあげるわ<br /><br />(Breaking out)逆鱗に触れた先に落ちた<br />
+(Breaking out)産声が激しくぶつかり合う宴<br /><br />競い咲くように　命の Anthem　嗚らして<br />磨き上げてゆく　それぞれのダイヤを胸に抱き<br />自らの音を　信じているからと　高らかに<br />妥協はしない　譲らない　決して揺るがないものは<br />誇りある　この想い<br /><br />
+(We went all out to win) Passionate Song<br />(We went all out to win)<br /><br />
+ </div>
+ 
+ <button class="accordion">中文歌詞</button>
+<div class="panel1">
+<br />
+<br /><br />
+<br />
+<br />(為贏得勝利我們賭上一切)　熾熱的凝視<br />(為贏得勝利我們賭上一切)　熾熱的歌聲<br />(為贏得勝利我們賭上一切)　熾熱的靈魂<br />(為贏得勝利我們賭上一切)<br /><br />眼神之中　僅僅充滿著正直<br />
+靈魂與本能卻已蠢蠢欲動<br />嶄新的挑戰　正逐漸接近真實…<br />無論是怎樣的舞台　都會微笑以對<br /><br />(爆發吧)　在觸怒上天之前便已墜入<br />
+(爆發吧)　初啼之聲激烈碰撞的盛宴<br /><br />如百花爭艷般 　奏響生命的讚歌<br />
+將那持續磨練　各自閃耀的鑽石懷抱胸中<br />正因為相信著　自己的樂音　才會如此宏亮<br />不會妥協　不會退讓　絕不動搖的是<br />引以為傲的　這份心意<br /><br />
+(為贏得勝利我們賭上一切)　熾熱的樂曲<br />(為贏得勝利我們賭上一切)<br /><br />
+ </div>
+ 
+
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+   </center>
+ 
+</body>
+</html>
