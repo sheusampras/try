@@ -1,0 +1,110 @@
+<html>
+<title>Roselia</title>
+  <head>
+<style>
+     body
+    {
+         margin:0px;
+padding:0px;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/final/master/1234.png') center center fixed no-repeat;
+background-size: cover;
+    }
+    .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #5a46a9; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/try/master/970.png') ;
+background-size: cover;
+  overflow: hidden;
+}
+.panel1 {
+  padding: 0 18px;
+  display: none;
+background:#fff url('https://raw.githubusercontent.com/sheusampras/try/master/48.png') ;
+background-size: cover;
+  overflow: hidden;
+}
+    </style>
+  </head>
+  
+  
+<body>
+
+<center>
+
+<div class="text">
+<br />
+<img src="https://i.bandori.party/u/s/250Bad-Apple-vEI0yB.png" width="400" height="400">
+<br /><br />
+<strong>
+<span style="font-size:large;">Bad Apple!!</span><br /><span style="color:#0000ff;">Roselia</span>
+</strong><br />
+作詞：Haruka<br />作曲：Masayoshi Minoshima<br /><strong>原來源：東方幻想郷　～ Lotus Land Story.</strong><br />
+
+
+<audio controls>
+  <source src="bgm266.mp3" type="audio/mpeg">
+你的瀏覽器可能不支援撥放器。
+</audio>
+
+
+<button class="accordion">日文歌詞</button>
+<div class="panel">
+<br />
+<br /><br />
+<br />
+流れてく　時の中ででも　気だるさが　ほらグルグル廻って<br />私から　離れる心も　見えないわ　そう知らない？<br />自分から　動くこともなく　時の隙間に　流され続けて<br />
+知らないわ　周りのことなど　私は私　それだけ<br /><br />夢見てる？　なにも見てない？　語るも無駄な　自分の言葉？<br />悲しむなんて　疲れるだけよ　何も感じず　過ごせばいいの<br /><br />
+戸惑う言葉　與えられても　自分の心　ただ上の空<br />もし私から　動くのならば　すべて変えるのなら　黒にする<br /><br />こんな自分に　未來はあるの？　こんな世界に　私はいるの？<br />
+今切ないの？　今悲しいの？　自分の事も　わからないまま<br /><br />歩むことさえ　疲れるだけよ　人のことなど　知りもしないわ<br />こんな私も　変われるもなら　もし変われるのなら　白になる？<br /><br />
+ </div>
+ 
+ <button class="accordion">中文歌詞</button>
+<div class="panel1">
+<br />
+<br /><br />
+<br />
+就算在流逝的時空中仍能發現　你瞧，只在原地打轉不停<br />我那已失去的心也看不見　你能明白嗎？<br />就算自己什麼都不做　時光仍漸漸消逝在縫隙中<br />
+週遭的一切我一概不知　「我就是我」　所知的僅此而已<br /><br />在夢中發現了嗎？　還是什麼都沒發見？　發現自己如何訴說也沒用的真心話？<br />悲傷只會使自己更累　乾脆什麼都別多想　如此度日就好<br /><br />
+就算聽到令人困惑的話語　我的心早已懸在半空<br />若我試著改變這一切的話　這一切就將化為黑暗<br /><br />這樣的我能有未來嗎？　這樣的世界能有我嗎？<br />
+現在我很難過嗎？　現在我很悲傷嗎？　就像這樣連自己的事都不清楚<br /><br />就算繼續走下去也只會感到更累　人際關係什麼的　乾脆也別去瞭解了<br />這樣的我也能改變的話　如果真的改變的話　一切能回歸虛無嗎？<br /><br />
+ </div>
+ 
+
+ 
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+   </center>
+ 
+</body>
+</html>
