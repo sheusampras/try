@@ -148,7 +148,8 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 .character .motion .text {
 	opacity: 0;
 	top: 20px;
-	 scroll-snap-type: x mandatory;
+	 soverflow-y: scroll;
+	overflow-x:hidden;
         -webkit-overflow-scrolling: touch;
 	-webkit-transition: all .6s ease;
 	-moz-transition: all .6s ease;
@@ -162,7 +163,8 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 .character .motion .chara2d {
 	opacity: 0;
 	margin-left: 60px;
-	scroll-snap-type: x mandatory;
+	overflow-y: scroll;
+	overflow-x:hidden;
         -webkit-overflow-scrolling: touch;
 	-webkit-transition: all .6s ease;
 	-moz-transition: all .6s ease;
@@ -172,6 +174,7 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 	-moz-transition-delay: 500ms;
 	-ms-transition-delay: 500ms;
 	transition-delay: 500ms;
+	
 }
 
 
