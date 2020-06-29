@@ -121,7 +121,7 @@ background:url(/try/character/1593180401_733213.png) 50% 0 no-repeat;
 	height: 700px;
 	background:url(/try/character/chara_bg01.png) 50% 0 no-repeat;
 	z-index: 1;
-	top: -90px;
+	top: -120px;
 }
 .character .mainCharaArea .chara05 .chara2d {
 	position: absolute;
