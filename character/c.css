@@ -34,6 +34,9 @@ background:url(/try/character/chara_bg01.png) 50% 0 no-repeat;
 	top: 0;
 background:url(/try/character/yuki.png) 50% 0 no-repeat;
 }
+.character .mainCharaArea .chara01 .chara2d:hover{
+	color:#5a46a9;
+}
 .character .mainCharaArea .chara01 .text {
 	position: absolute;
 	width: 100%;
@@ -60,6 +63,9 @@ background:url(/try/character/yuki.png) 50% 0 no-repeat;
 	top: 0;
 background:url(/try/character/sa.png) 50% 0 no-repeat;
 }
+.character .mainCharaArea .chara02 .chara2d:hover{
+	color:#32aabe;
+}
 .character .mainCharaArea .chara02 .text {
 	position: absolute;
 	width: 100%;
@@ -82,6 +88,9 @@ background:url(/try/character/1593180279_163796.png) 50% 0 no-repeat;
 	height: 700px;
 	top: 0;
 background:url(/try/character/lisa.png) 50% 0 no-repeat;
+}
+.character .mainCharaArea .chara03 .chara2d:hover{
+	color:#c8463b;
 }
 .character .mainCharaArea .chara03 .text {
 	position: absolute;
@@ -107,6 +116,9 @@ background:url(/try/character/lisa.png) 50% 0 no-repeat;
 	top: 0;
 background:url(/try/character/ako.png) 50% 0 no-repeat;
 }
+.character .mainCharaArea .chara04 .chara2d:hover{
+	color:#fa5ab4;
+}
 .character .mainCharaArea .chara04 .text {
 	position: absolute;
 	width: 100%;
@@ -129,6 +141,9 @@ background:url(/try/character/1593180401_733213.png) 50% 0 no-repeat;
 	height: 700px;
 	top: 0;
 background:url(/try/character/rin.png) 50% 0 no-repeat;
+}
+.character .mainCharaArea .chara05 .chara2d:hover{
+	color:#a9b3b3;
 }
 .character .mainCharaArea .chara05 .text {
 	position: absolute;
