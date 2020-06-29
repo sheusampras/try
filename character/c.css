@@ -191,7 +191,14 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 	opacity: 1;
 	right: 0;
 }
-
+character .chara01 .chara2d,
+.character .chara03 .chara2d {
+	margin-left: -60px;
+}
+.character .chara01 .text,
+.character .chara03 .text {
+	margin-left: 60px;
+}
 
 .character .subCharaArea {
 	display: none;
