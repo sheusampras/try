@@ -148,10 +148,7 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 .character .motion .text {
 	opacity: 0;
 	top: 20px;
-	 soverflow-y: scroll;
-	overflow-x:hidden;
-        -webkit-overflow-scrolling: auto;
-	element::-webkit-scrollbar {display: none;}
+	
 	-webkit-transition: all .6s ease;
 	-moz-transition: all .6s ease;
 	-ms-transition: all .6s ease;
@@ -164,10 +161,6 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 .character .motion .chara2d {
 	opacity: 0;
 	margin-left: 60px;
-	overflow-y: scroll;
-	overflow-x:hidden;
-        -webkit-overflow-scrolling: auto;
-	element::-webkit-scrollbar {display: none;}
 	-webkit-transition: all .6s ease;
 	-moz-transition: all .6s ease;
 	-ms-transition: all .6s ease;
@@ -208,17 +201,3 @@ character .chara01 .chara2d,
 .character .chara03 .text {
 	margin-left: 60px;
 }
-
-.character .subCharaArea {
-	display: none;
-	padding:40px 0 60px;
-}
-.character .subCharaArea ul {
-	width: 100%;
-	margin:0 auto;
-	text-align: center;
-}
-.character .subCharaArea li {
-	display: inline-block;
-}
-
