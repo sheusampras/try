@@ -150,7 +150,8 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 	top: 20px;
 	 soverflow-y: scroll;
 	overflow-x:hidden;
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling: auto;
+	element::-webkit-scrollbar {display: none;}
 	-webkit-transition: all .6s ease;
 	-moz-transition: all .6s ease;
 	-ms-transition: all .6s ease;
@@ -165,7 +166,8 @@ background:url(/try/character/rin.png) 50% 0 no-repeat;
 	margin-left: 60px;
 	overflow-y: scroll;
 	overflow-x:hidden;
-        -webkit-overflow-scrolling: touch;
+        -webkit-overflow-scrolling: auto;
+	element::-webkit-scrollbar {display: none;}
 	-webkit-transition: all .6s ease;
 	-moz-transition: all .6s ease;
 	-ms-transition: all .6s ease;
