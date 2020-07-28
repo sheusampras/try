@@ -61,6 +61,24 @@
     }
   },
   
+    "layout":{
+        "center_x":5.6,
+        "center_y":10.71,
+        "width":2.0
+    },
+  
+   "hit_areas_custom":{
+        "head_x":[4.0, 7.2],
+        "head_y":[12.5, 17.3],
+        "body_x":[3.0, 9.5],
+        "body_y":[6.8, 11.8],
+        "skirt_x":[3.0, 8.0],
+        "skirt_y":[1.8, 6.8]
+    },
+  
+  
+  
+  
 
   "motions": {
     "idle": [
