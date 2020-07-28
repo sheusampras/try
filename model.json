@@ -60,25 +60,18 @@
       "enabled": true
     }
   },
-  "hit_areas": [
-    {
-      "name": "head",
-      "id": "D_PSD.31",
-      "motion": "tap_head"
+  
+   "hit_areas_custom":{
+        "head_x":[4.0, 7.2],
+        "head_y":[12.5, 17.3],
+        "body_x":[3.0, 9.5],
+        "body_y":[6.8, 11.8],
+        "skirt_x":[3.0, 8.0],
+        "skirt_y":[1.8, 6.8]
     },
-    {
-      "name": "body",
-      "id": "D_PSD1.59"
-    },
-    {
-      "name": "skirt",
-      "id": "D_PSD1.55"
-    },
-    {
-      "name": "skirt2",
-      "id": "D_PSD1.54"
-    }
-  ],
+  
+  
+
   "motions": {
     "idle": [
       {
@@ -88,7 +81,7 @@
         "file": "yukina_other-14/motions/idle02.mtn"
       }
     ],
-   "tap_head": [
+   "flick_head": [
       {
         "name": "sing",
         "file": "yukina_other-14/motions/sing01.mtn",
@@ -195,7 +188,7 @@
         "name": "throat",
         "file": "yukina_other-14/motions/nf03.mtn",
         "sound": "systemProfile_021_2.mp3",
-        "text": "喜歡的飲料是......蜂蜜加茶、對喉嚨很好。",
+        "text": "喜歡的飲料是......蜂蜜茶、對喉嚨很好。",
         "priority": 9
       },
       {
@@ -227,40 +220,6 @@
         "priority": 9
       }
     ],
-    "tap_skirt2": [
-     {
-        "name": "throat",
-        "file": "yukina_other-14/motions/nf03.mtn",
-        "sound": "systemProfile_021_2.mp3",
-        "priority": 9
-      },
-      {
-        "name": "concentrate",
-        "file": "yukina_other-14/motions/nf04.mtn",
-        "sound": "systemProfile_021_5.mp3",
-        "priority": 9
-      },
-      {
-        "name": "dad",
-        "file": "yukina_other-14/motions/nf02.mtn",
-        "sound": "systemBand_021_1.mp3",
-        "priority": 9
-      },
-      {
-        "name": "pride",
-        "file": "yukina_other-14/motions/nf05.mtn",
-        "sound": "systemBand_021_2.mp3",
-        "priority": 9,
-        "language": "ja"
-      },
-      {
-        "name": "practice",
-        "file": "yukina_other-14/motions/nf01.mtn",
-        "sound": "systemBand_021_3.mp3",
-        "priority": 9
-      }
-    ]
-  },
   "expressions": [
     {
       "name": "yukina_default.exp.json",
