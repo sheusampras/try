@@ -64,8 +64,7 @@
     "hit_areas": [
     {
       "name": "head",
-      "id": "D_PSD.31",
-      "motion": "tap_head"
+      "id": "D_PSD.31"
     },
     {
       "name": "body",
