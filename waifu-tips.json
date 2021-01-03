@@ -93,8 +93,8 @@
             "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"]
         },
         {
-            "selector": "c-player div.lyric-button",
-            "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"]
+            "selector": "hide-button",
+            "text": ["再會。", "好好休息吧。"]
         },
     ],
     "click": [
