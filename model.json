@@ -1,9 +1,7 @@
 {
   "version": "Sample 1.0.0",
   "model": "yukina_other-14.moc",
-  "textures": [
-    "textures/texture_00.png",
-  ],
+  "textures": "textures/texture_00.png",
   "controllers": {
     "param_hit": {
       "enabled": true
