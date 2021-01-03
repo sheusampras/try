@@ -2,7 +2,7 @@
     "mouseover": [
         {
             "selector": ".container a[href^='http']",
-            "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"]
+            "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 嗎？"]
         },
         {
             "selector": ".fui-home",
@@ -96,15 +96,11 @@
             "selector": "c-player div.lyric-button",
             "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"]
         },
-        {
-            "selector": "#live2dcanvas",
-            "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！"]
-        }
     ],
     "click": [
         {
             "selector": "#live2d",
-            "text": ["是…是不小心碰到了吧", "萝莉控是什么呀", "你看到我的小熊了吗", "再摸的话我可要报警了！⌇●﹏●⌇", "110吗，这里有个变态一直在摸我(ó﹏ò｡)"]
+            "text": ["", "完美的、展現我的決心。", "因為從小就開始唱歌、所以我對我的音量是很有自信的。", "喜歡的飲料是......蜂蜜加茶、對喉嚨很好。", "只把練習當練習是不行的、練習要朝著實際登場看待。"]
         }
     ]
 }
