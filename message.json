@@ -33,8 +33,8 @@
             "text": ["我希望你不會介意與我分享你的筆記"]
         },
         {
-            "selector": "#author",
-            "text": ["该怎么称呼你呢"]
+            "selector": ".container li span",
+            "text": ["人都可以有反悔，按下去可以倒回時間"]
         },
         {
             "selector": "#mail",
