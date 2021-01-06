@@ -93,7 +93,7 @@
             "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"]
         },
         {
-            "selector": "#landlord #hide-button",
+            "selector": "hide-button",
             "text": ["再會", "好好休息吧"]
         }
     ],
