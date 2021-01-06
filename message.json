@@ -95,7 +95,7 @@
         {
             "selector": "#landlord #hide-button",
             "text": ["再會", "好好休息吧"]
-        },
+        }
     ],
     "click": [
         {
