@@ -13,7 +13,7 @@
             "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"]
         },
         {
-            "selector": "submit",
+            "selector": ".container input[type="submit"]",
             "text": ["會在下面紀錄你剛剛輸入的東西"]
         },
         {
@@ -21,7 +21,7 @@
             "text": ["深夜时要爱护眼睛呀"]
         },
         {
-            "selector": "text",
+            "selector": ".container input[type="text"]",
             "text": ["想要紀錄東西的話，可以在這邊輸入"]
         },
         {
