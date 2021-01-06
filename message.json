@@ -14,7 +14,7 @@
         },
         {
             "selector": ".container input",
-            "text": ["會在下面紀錄你剛剛輸入的東西"]
+            "text": ["會在下面紀錄你剛剛輸入的東西", "想要紀錄東西的話，可以在這邊輸入"]
         },
         {
             "selector": "#night_mode",
