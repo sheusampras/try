@@ -13,16 +13,16 @@
             "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"]
         },
         {
-            "selector": "#comment_go,.fui-chat",
-            "text": ["想要去评论些什么吗？"]
+            "selector": "submit",
+            "text": ["會在下面紀錄你剛剛輸入的東西"]
         },
         {
             "selector": "#night_mode",
             "text": ["深夜时要爱护眼睛呀"]
         },
         {
-            "selector": "#qrcode",
-            "text": ["手机扫一下就能继续看，很方便呢"]
+            "selector": "text",
+            "text": ["想要紀錄東西的話，可以在這邊輸入"]
         },
         {
             "selector": ".comment_reply",
@@ -93,7 +93,7 @@
             "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"]
         },
         {
-            "selector": "hide-button",
+            "selector": ".hide-button",
             "text": ["再會", "好好休息吧"]
         }
     ],
