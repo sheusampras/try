@@ -25,12 +25,12 @@
             "text": ["想要紀錄東西的話，可以在這邊輸入"]
         },
         {
-            "selector": ".comment_reply",
-            "text": ["要吐槽些什么呢"]
+            "selector": ".container ul",
+            "text": ["好吧，我也看到你剛剛輸入了什麼"]
         },
         {
-            "selector": "#back-to-top",
-            "text": ["回到开始的地方吧"]
+            "selector": ".container li",
+            "text": ["我希望你不會介意與我分享你的筆記"]
         },
         {
             "selector": "#author",
