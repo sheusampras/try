@@ -5,12 +5,8 @@
             "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 嗎？"]
         },
         {
-            "selector": ".fui-home",
-            "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"]
-        },
-        {
-            "selector": "#tor_show",
-            "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"]
+            "selector": ".bottom-bar",
+            "text": ["選單區，可以連到我們的其他功能"]
         },
         {
             "selector": ".container input",
@@ -18,7 +14,7 @@
         },
         {
             "selector": "#night_mode",
-            "text": ["深夜时要爱护眼睛呀"]
+            "text": ["晚上要記得開暗色系"]
         },
         {
             "selector": "#text",
@@ -26,75 +22,55 @@
         },
         {
             "selector": ".container ul",
-            "text": ["好吧，我也看到你剛剛輸入了什麼"]
-        },
-        {
-            "selector": ".container li",
-            "text": ["我希望你不會介意與我分享你的筆記"]
+            "text": ["好吧，我也看到你剛剛輸入了什麼","我希望你不會介意與我分享你的筆記"]
         },
         {
             "selector": ".container li span",
             "text": ["人都可以有反悔，按下去可以倒回時間"]
         },
         {
-            "selector": "#mail",
-            "text": ["留下你的邮箱，不然就是无头像人士了"]
+            "selector": "button#playpausebtn",
+            "text": ["你可以先暫停或開始背景音樂"]
         },
         {
-            "selector": "#url",
-            "text": ["你的家在哪里呢，好让我去参观参观"]
+            "selector": "button#mutebtn",
+            "text": ["覺得吵或想要熱鬧就按下去吧"]
         },
         {
-            "selector": "#textarea",
-            "text": ["认真填写哦，垃圾评论是禁止事项"]
+            "selector": " .frame",
+            "text": ["可以使用鍵盤操控方向，之後點選人可以對話"]
         },
         {
-            "selector": ".OwO-logo",
-            "text": ["要插入一个表情吗"]
+            "selector": " .contact form",
+            "text": ["輸入你的讀書目標和休閒活動，然後幫你上傳吧"]
         },
         {
-            "selector": "#csubmit",
-            "text": ["要提交了吗，首次评论需要审核，请耐心等待~"]
-        },
-        {
-            "selector": ".ImageBox",
-            "text": ["点击图片可以放大呢"]
+            "selector": " .brand",
+            "text": ["這是我們的網站名稱，希望你能記住"]
         },
         {
             "selector": "input[name=s]",
             "text": ["找不到想看的内容？搜索看看吧"]
         },
         {
-            "selector": ".previous",
-            "text": ["去上一页看看吧"]
+            "selector": ".company-info",
+            "text": ["我們的相關資訊，可以看看"]
         },
         {
-            "selector": ".next",
-            "text": ["去下一页看看吧"]
+            "selector": ".contact form button",
+            "text": ["我會幫你傳過去，交給我吧"]
         },
         {
             "selector": ".dropdown-toggle",
-            "text": ["这里是菜单"]
+            "text": ["沒錯，下拉式選單"]
         },
         {
             "selector": "c-player a.play-icon",
             "text": ["想要听点音乐吗"]
         },
         {
-            "selector": "c-player div.time",
-            "text": ["在这里可以调整<span style=\"color:#0099cc;\">播放进度</span>呢"]
-        },
-        {
-            "selector": "c-player div.volume",
-            "text": ["在这里可以调整<span style=\"color:#0099cc;\">音量</span>呢"]
-        },
-        {
-            "selector": "c-player div.list-button",
-            "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"]
-        },
-        {
             "selector": ".hide-button",
-            "text": ["再會", "好好休息吧"]
+            "text": ["再會", "好好休息吧","明天見","你也早點休息吧"]
         }
     ],
     "click": [
