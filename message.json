@@ -38,7 +38,7 @@
         },
         {
             "selector": " .frame",
-            "text": ["可以使用鍵盤操控方向，之後點選人可以對話"]
+            "text": ["可以使用鍵盤操控方向，之後點選物件可以對話"]
         },
         {
             "selector": " .contact form",
@@ -49,8 +49,8 @@
             "text": ["這是我們的網站名稱，希望你能記住"]
         },
         {
-            "selector": "input[name=s]",
-            "text": ["找不到想看的内容？搜索看看吧"]
+            "selector": ".inline-block-nav",
+            "text": ["這裡也可以連到我們的其他網站"]
         },
         {
             "selector": ".company-info",
@@ -63,10 +63,6 @@
         {
             "selector": ".dropdown-toggle",
             "text": ["沒錯，下拉式選單"]
-        },
-        {
-            "selector": "c-player a.play-icon",
-            "text": ["想要听点音乐吗"]
         },
         {
             "selector": ".hide-button",
