@@ -29,20 +29,16 @@
             "text": ["人都可以有反悔，按下去可以倒回時間"]
         },
         {
-            "selector": "button#playpausebtn",
-            "text": ["你可以先暫停或開始背景音樂"]
-        },
-        {
-            "selector": "button#mutebtn",
-            "text": ["覺得吵或想要熱鬧就按下去吧"]
-        },
-        {
             "selector": " .frame",
             "text": ["可以使用鍵盤操控方向，之後點選物件可以對話"]
         },
         {
+            "selector": " contact form button",
+            "text": ["會幫你送出的"]
+        },
+        {
             "selector": " .contact form",
-            "text": ["輸入你的讀書目標和休閒活動，然後幫你上傳吧"]
+            "text": ["輸入你的讀書目標和休閒活動，而下面就輸入留言"]
         },
         {
             "selector": " .brand",
@@ -54,11 +50,23 @@
         },
         {
             "selector": ".company-info",
-            "text": ["我們的相關資訊，可以看看"]
+            "text": ["我們的相關資訊，下面則是各位的留言歷程"]
         },
         {
-            "selector": ".contact form button",
-            "text": ["我會幫你傳過去，交給我吧"]
+            "selector": ".volume_slider",
+            "text": ["要是覺得不舒服的話就用這個調整音量吧"]
+        },
+         {
+            "selector": "playpause-track",
+            "text": ["我相信你知道這個按鈕的功能"]
+        },
+         {
+            "selector": "prev-track",
+            "text": ["我也覺得上一首比較好聽"]
+        },
+         {
+            "selector": "next-track",
+            "text": ["你可以換首歌"]
         },
         {
             "selector": ".dropdown-toggle",
