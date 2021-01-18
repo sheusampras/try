@@ -50,7 +50,7 @@
         },
         {
             "selector": ".company-info",
-            "text": ["我們的相關資訊，下面則是各位的留言歷程"]
+            "text": ["上面可以輸入名字，中間是我們的相關資訊，下面則是各位的留言歷程"]
         },
         {
             "selector": ".volume_slider",
