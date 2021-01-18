@@ -57,15 +57,15 @@
             "text": ["要是覺得不舒服的話就用這個調整音量吧"]
         },
          {
-            "selector": "playpause-track",
+            "selector": ".playpause-track",
             "text": ["我相信你知道這個按鈕的功能"]
         },
          {
-            "selector": "prev-track",
+            "selector": ".prev-track",
             "text": ["我也覺得上一首比較好聽"]
         },
          {
-            "selector": "next-track",
+            "selector": ".next-track",
             "text": ["你可以換首歌"]
         },
         {
